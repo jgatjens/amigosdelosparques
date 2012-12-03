@@ -1,0 +1,43 @@
+.ui-mobile .ui-listview a img {
+    margin: 15px 10px 10px 10px
+}
+h2.ui-li-heading {
+    color: #063E64;
+    margin-bottom: 2px
+}
+h5.ui-li-heading {
+    font-size: .9em;
+    color: #888;
+    margin-top: 0;
+    padding-bottom: 10px
+}
+
+p.price {
+    color: #666;
+    font-weight: bold;
+}
+
+p.price span {
+    font-size: 14px;
+    color: #063E64;
+}
+
+.ui-dialog.my-dialog .ui-dialog-contain { margin-top: 0 }
+.ui-dialog .ui-dialog-contain { margin-top: 0 }
+/*
+.ui-btn-active {
+    border: 1px solid #c6ab7c;
+    background: #d6c08e 
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    text-shadow: 0  1px  1px  #000;
+    text-decoration: none;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #d6c08e , to( #c6ab7c ));
+    background-image: -webkit-linear-gradient( #d6c08e , #c6ab7c);
+    background-image: -moz-linear-gradient( #d6c08e, #c6ab7c);
+    background-image: -ms-linear-gradient( #d6c08e , #c6ab7c);
+    background-image: -o-linear-gradient( #d6c08e , #c6ab7c);
+    background-image: linear-gradient( #d6c08e, #c6ab7c );
+    font-family: Helvetica, Arial, sans-serif;
+}*/

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to Amigos de los Parques Nacionales de Costa Rica’s Online Store</title>
+	<link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.2.0.css" />
+	<link rel="stylesheet" href="docs/_assets/css/jqm-docs.css" />
+	<link rel="stylesheet" href="css/app.css" />
+	<script src="js/jquery.js"></script>
+	<script src="docs/_assets/js/jqm-docs.js"></script>
+	<script src="js/jquery.mobile-1.2.0.js"></script>
+	
+</head>
+<body>
+<div data-role="page" class="type-home">
+	<div data-role="header" data-position="fixed" data-theme="f">
+
+		<h1>Online Store - Home</h1>
+		<a href="index.html" data-icon="home" data-iconpos="notext" data-direction="reverse">index</a>
+		<a href="nav.html" data-icon="search" data-iconpos="notext" data-rel="dialog" data-transition="fade">Search</a>
+	</div>	
+
+	<div data-role="header">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="account.html">My Account</a></li>
+				<li><a href="login.html">Login</a></li>
+				<!-- <li><a href="#/account">My Account</a></li> -->
+				<li><a href="cart.html" data-rel="dialog" data-transition="pop">Cart (3)</a></li>
+			
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /header -->
+	<div data-role="content">
+		<ul data-role="listview">
+	        <li>
+	          <a href="product/morfo.html" data-transition="flip">
+	            <img src="app/products/morfo2.png" />
+	            <h2>Morfo Membership</h2>
+	            <h5>Individual Membership</h5>
+	    		<p>Valid for 14 days after first use- Named for a shimmering blue rainforest butterfly. Morpho members venture into our parks only for a few days. Expires after 120 days if not used</p>
+	    		<p class="price">Price: <span>$39.00</span> </p>
+	          </a>
+	        </li>
+	        <li>
+	          <a href="product/morfo.html" data-transition="turn">
+	            <img src="app/products/tortuga2.png" />
+	            <h2>Tortuga Membership</h2>
+	            <h5>Individual Membership</h5>
+	    		<p>Sea turtles travel hundreds of miles and always return to the same beach from which they hatched. Turtle members return often to our protected areas. Valid for one year</p>
+	    		<p class="price">Price: <span>$100.00</span> </p>
+	          </a>
+	        </li>
+	        <li>
+	          <a href="product/morfo.html" data-transition="flow">
+	            <img src="app/products/jaguar2.png" />
+	            <h2>Jaguar Membership</h2>
+	            <h5>Dual Membership</h5>
+	            <p>These spectacular felines are the sentinels of the intricate forest system. Jaguar members are quietly vigilant and very generous in their support. Valid for one year</p>
+	    		<p class="price">Price: <span>$500.00</span> </p>
+	          </a>
+	        </li>
+      	</ul>    	
+	<!-- 
+		<div class="content-secondary">
+			<a href="index.html" data-theme="b" data-role="button">Start App</a>	
+		</div> -->
+	</div>
+
+	<div data-role="footer" class="footer-docs" data-theme="c">
+        <p>Prototype</p>
+		<p>&copy; 2012 Gatjens</p>
+	</div>
+
+</div>
+</body>
+</html>

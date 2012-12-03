@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to Amigos de los Parques Nacionales de Costa Rica’s Online Store</title>
+	<link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.2.0.css" />
+	<link rel="stylesheet" href="docs/_assets/css/jqm-docs.css" />
+	<link rel="stylesheet" href="css/app.css" />
+	<script src="js/jquery.js"></script>
+	<script src="docs/_assets/js/jqm-docs.js"></script>
+	<script src="js/jquery.mobile-1.2.0.js"></script>
+	
+</head>
+<body>
+<div data-role="page" class="type-home">
+	<div data-role="header" data-position="fixed" data-theme="f">
+
+		<h1>Online Store</h1>
+		<a href="home.html" data-icon="home" data-iconpos="notext" data-direction="reverse">Home</a>
+		<a href="nav.html" data-icon="search" data-iconpos="notext" data-rel="dialog" data-transition="fade">Search</a>
+	</div>	
+
+	<div data-role="header">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="account.html">My Account</a></li>
+				<li><a class="ui-btn-active" href="login.html">Login</a></li>
+				<!-- <li><a href="#/account">My Account</a></li> -->
+				<li><a href="cart.html" data-rel="dialog" data-transition="pop">Cart (3)</a></li>
+			
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /header -->
+	<div data-role="content">
+		 <form action="#" method="get" > 
+		      <div data-role="fieldcontain" class="ui-corner-all ui-shadow" style="padding:20px 15px">
+		        
+		      	<fieldset data-role="controlgroup" data-mini="true">
+			    	<input type="radio" name="radio-mini" id="radio-mini-1" value="choice-1" checked="checked" />
+			    	<label for="radio-mini-1">Yes, I have already an account</label>
+
+			    	<input type="radio" name="radio-mini" id="radio-mini-3" value="choice-3"  />
+			    	<label for="radio-mini-3">Create a New Account</label>
+				</fieldset>
+				<br>		        
+		        <input type="text" name="email" id="email" value="" placeholder="My e-mail address is"/><br>
+		        <input type="text" name="password" id="password" value="" placeholder="Password"/>
+		        <br>
+		        <fieldset data-role="controlgroup" data-mini="true">
+		         <input type="checkbox" name="checkbox-2" id="checkbox-2" class="custom" />
+		         <label for="checkbox-2">Remember me next time</label>
+		        </fieldset>
+		        
+		        <p><a href="#" data-theme="a" data-role="button">Sign In</a></p>
+		      </div>  
+
+		    </form>
+	</div>
+
+	<div data-role="footer" class="footer-docs" data-theme="c">
+            <p>Prototype</p>
+			<p>&copy; 2012 Gatjens</p>
+	</div>
+
+</div>
+</body>
+</html>
